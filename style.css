@@ -20,27 +20,53 @@ body {
 
 #navbar a {
   text-decoration: none;
-color: white;
-font-size: 20px;
+    color: white;
+    font-size: 20px;
 }
 
 #welcome-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   height: 100vh;
   padding: 3rem 0rem;
   text-align: center;
   font-size: 30px;
   margin: 0 auto;
   text-transform: uppercase;
+
 }
 
-.testblock {
+.project-display {
   display: block;
   width: 250px;
   height: 250px;
   background-color: blue;
-  border: solid black;
+
+
+  margin-bottom: 20px;
+  border-radius: 10%;
+
+
 }
 
+.img{
+    width: auto;
+    height: auto;
+    border:none;
+    margin-bottom: 20px;
+}
+
+.project-tile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    width: 1000px;
+    height: 500px;
+    
+
+}
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
 }
 
