@@ -4,16 +4,33 @@
   box-sizing: border-box;
 }
 body {
+  margin: 0px 10px;
+  background-image: linear-gradient(to right, #20002c, #cbb4d4);
   position: relative;
 }
 
 #navbar {
   position: fixed;
+  width: 95%;
   top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#navbar a {
+  text-decoration: none;
+color: white;
+font-size: 20px;
 }
 
 #welcome-section {
   height: 100vh;
+  padding: 3rem 0rem;
+  text-align: center;
+  font-size: 30px;
+  margin: 0 auto;
+  text-transform: uppercase;
 }
 
 .testblock {
